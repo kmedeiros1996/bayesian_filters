@@ -1,0 +1,11 @@
+set(ROOT_DIR ${PROJECT_SOURCE_DIR})
+set(ROOT_LIB ${ROOT_DIR}/lib)
+set(ROOT_FILTERS ${ROOT_LIB}/filters)
+set(ROOT_UTIL ${ROOT_LIB}/util)
+set(ROOT_MODELS ${ROOT_LIB}/models)
+
+message("ROOT_DIR: ${ROOT_DIR}")
+message("ROOT_LIB: ${ROOT_LIB}")
+message("ROOT_FILTERS" ${ROOT_FILTERS})
+message("ROOT_UTIL" ${ROOT_UTIL})
+message("ROOT_MODELS" ${ROOT_MODELS})
